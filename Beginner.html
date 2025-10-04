@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minesweeper Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Minesweeper App</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="HowTo.html">How To Play</a>
+            <a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)" target="_blank">Info From WIKI</a>
+        </nav>
+    </header>
+    <div class="Sidebar">
+        <aside>
+            <h2>Options</h2>
+            <ul>
+                <li><a href="Beginner.html">Beginner</a></li>
+                <li><a href="Intermediate.html">Intermediate</a></li>
+                <li><a href="Expert.html">Expert</a></li>
+            </ul>
+        </aside>
+        <main class="flex-container">
+            <section id="board">
+                <h2>Board</h2>
+                <div class="board board-9"></div>
+            </section>
+            <section id="board-name">
+                <div class="level">
+                    <p class="label">Beginner  (9 x 9)</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy;2025 My Minesweeper Box Model.</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

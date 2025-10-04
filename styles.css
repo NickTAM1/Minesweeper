@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color:aquamarine;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin: 7px;
+}
+
+    header nav {
+        display: flex;
+        flex-direction: column; 
+        gap: 8px;
+    }
+
+        header nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 15px;
+            background-color: lightsalmon;
+            border: 3px solid black;
+            padding: 6px 12px;
+            border-radius: 30px;
+            text-align: center;
+        }
+
+
+aside {
+    width: 200px;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 7px;
+}
+
+    aside a {
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+        background-color: lightcoral;
+        border: 3px solid black;
+        padding: 5px;
+        border-radius: 30px;
+        margin-bottom:10px
+    }
+
+main {
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 7px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 7px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 0; 
+}
+
+/*Class Selectors*/
+
+.flex-container {
+    display:grid;
+    text-align:center;
+}
+.flex-container-how {
+    display:grid;
+
+}
+
+
+.header-container {
+    text-align: left;
+}
+
+
+.Sidebar {
+    display: flex;
+    flex: 1;
+
+}
+
+    .Sidebar li {
+        margin-bottom: 10px
+    }
+
+
+
+
+    .board {
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
+        gap: 5px;
+        margin: 0;
+        justify-content: center;
+
+    }
+
+
+    .board button {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #333;
+        background: #bbb;
+    }
+
+.board-9 {
+    
+    display: grid;
+    grid-template-columns: repeat(9, 24px);
+    gap: 7px;
+}
+
+    .board-9 button {
+        width: 24px;
+        height: 24px;
+    }
+.board-16 {
+    grid-template-columns: repeat(16, 20px);
+    gap: 7px;
+}
+
+    .board-16 button {
+        width: 20px;
+        height: 20px;
+    }
+
+
+.board-30x16 {
+    grid-template-columns: repeat(30, 16px);
+    gap: 7px;
+}
+
+    .board-30x16 button {
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+.level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    color: black;
+    font-size: 25px;
+    background-color: lightgreen;
+    border: 3px solid black;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*ID Selectors*/
+
+
+#board-name {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#board-name img {
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+    margin-left:60px;
+}
+
+#rule {
+    flex: 2;
+}
+
+#rule p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    flex: 2;
+}
+
+
+#VideoForHow {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-right:430px;
+}
+
+    #VideoForHow img {
+        width: 640px;
+        height: auto;
+        margin-top: 80px;
+    }
+
+#board h2 {
+    color: black;
+    text-decoration: none;
+    font-size: 56px;
+    display: inline-block;
+    background-color: yellowgreen;
+    border: 3px solid black;
+    padding: 8px;
+    border-radius: 30px;
+    text-align: center;
+}
