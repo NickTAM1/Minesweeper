@@ -1,6 +1,7 @@
+// Create a board with given rows and columns
 function makeBoard(rows, cols) {
     let board = document.querySelector(".board");
-    board.innerHTML = "";
+    board.innerHTML = ""; // clear old board
     for (let i = 0; i < rows; i++) {
         for (let j = 0; j < cols; j++) {
             let btn = document.createElement("button");
@@ -8,6 +9,7 @@ function makeBoard(rows, cols) {
         }
     }
 }
+
 // check which page
 
 if (document.querySelector(".board-9")) {
